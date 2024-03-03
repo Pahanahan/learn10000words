@@ -11763,6 +11763,14 @@ let arr = [
       ],
     },
   },
+  {
+    num: 841,
+    memory: 0,
+    word: {
+      name: "angry",
+      translate: ["сердитый", "злой", "гневный", "разгневанный", "злобный"],
+    },
+  },
 ];
 
 export default arr;
