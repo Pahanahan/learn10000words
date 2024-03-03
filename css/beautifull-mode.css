@@ -1,0 +1,67 @@
+/* #e27d60
+#95ccbb
+#f0d9c9
+#c38d9e
+#41b3a3 */
+
+.main {
+  background-color: #95ccbb;
+}
+
+.main__title {
+  color: white;
+}
+
+.main__start {
+  border: 4px solid #f0d9c9;
+  background-color: #41b3a3;
+  color: white;
+}
+
+.main__box-input {
+  border: 4px solid #41b3a3;
+}
+
+.main__box-btn {
+  border: 4px solid #f0d9c9;
+  background-color: #41b3a3;
+  color: white;
+}
+
+#word {
+  background-color: #e27d60;
+  border: 4px solid #41b3a3;
+  color: white;
+}
+
+.red {
+  color: rgb(153, 62, 62);
+}
+
+.green {
+  color: white;
+}
+
+#all-current-answers {
+  color: white;
+}
+
+.main-learned__show {
+  border: 4px solid #eec1a2;
+  background-color: #41b3a3;
+  color: white;
+}
+
+.main-learned {
+  color: white;
+}
+
+.main-learned__list {
+  color: white;
+}
+
+#switchMode {
+  border: 2px solid #f0d9c9;
+  background-color: #41b3a3;
+  color: white;
+}

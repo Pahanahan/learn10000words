@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn English</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/earth-mode.css" id="theme"/>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container main-container">
+        <h1 class="main__title">Изучи 10 000 английских слов</h1>
+        <button class="main__start">Начать изучать</button>
+        <button id="switchMode">ТЕМА</button>
+
+        <div class="main-start__box">
+          <div class="main__box">
+            <form class="main__box-form">
+              <div id="word">Здесь будет слово</div>
+              <input class="main__box-input" type="text" />
+              <button class="main__box-btn">Проверить</button>
+            </form>
+          </div>
+
+          <div class="main-end__box">
+            <div id="all-current-answers"></div>
+          </div>
+
+          <div class="main__box2"></div>
+          <div class="main__box3"></div>
+        </div>
+
+        <div class="main-learned">
+          <button class="main-learned__show">
+            Показать количество выученных слов
+          </button>
+          <p class="main-learned__text none"></p>
+          <p class="main-learned__list none"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js" type="module"></script>
+    <script src="js/words.js" type="module"></script>
+  </body>
+</html>

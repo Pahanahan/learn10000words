@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+html {
+  box-sizing: border-box;
+  font-family: "Mali", cursive;
+}
+
+body {
+  transition: 1s;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1190px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.main {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 300vh;
+  position: absolute;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__title {
+  padding-top: 5px;
+  font-family: "Montserrat" sans-serif;
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -1.65px;
+  color: #242121;
+  padding-bottom: 18px;
+}
+
+.main__start {
+  font-size: 20px;
+  border: 4px solid #242121;
+  border-radius: 5px;
+  background-color: rgb(234, 248, 184);
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.main__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__box-input {
+  width: 300px;
+  height: 50px;
+  border: 4px solid #242121;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 100%;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.main__box-btn {
+  border: 4px solid #242121;
+  border-radius: 20px;
+  background-color: rgb(234, 248, 184);
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#word {
+  font-size: 30px;
+  align-items: center;
+  background-color: rgb(165, 183, 243);
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 4px solid #242121;
+}
+
+.main__box2 {
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.main__box3 {
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.red {
+  color: rgb(236, 3, 3);
+}
+
+.green {
+  color: rgb(13, 110, 0);
+}
+
+#all-current-answers {
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  color: rgb(24, 116, 1);
+}
+
+.reset__btn {
+  font-size: 16px;
+  border: 2px solid #242121;
+  border-radius: 5px;
+  background-color: rgb(247, 73, 88);
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.top500 {
+  margin-top: 500px;
+  background-color: #790101;
+}
+
+.main-learned {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(255, 0, 170);
+}
+
+.main-learned__text {
+  text-align: center;
+  line-height: 30px;
+  margin: 0 auto;
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+.main-learned__show {
+  border: 4px solid #242121;
+  border-radius: 5px;
+  background-color: rgb(234, 248, 184);
+  margin-bottom: 20px;
+  align-items: center;
+  line-height: 25px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.main-learned__list {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(5, 0, 3);
+  text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
+  line-height: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.grey {
+  color: #910202;
+}
+
+#switchMode {
+  position: absolute;
+  font-size: 10px;
+  top: 83px;
+  left: 10px;
+  background-color: rgb(234, 248, 184);
+  color: black;
+  font-weight: 700;
+  border: 2px solid #242121;
+  border-radius: 4px;
+  cursor: pointer;
+}

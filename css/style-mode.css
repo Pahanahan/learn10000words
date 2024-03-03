@@ -1,0 +1,64 @@
+/* #3c3c3f
+#c4c4cc
+#7395ae
+#557a95
+#b1a296 */
+
+.main {
+  background-color: #3c3c3f;
+}
+
+.main__title {
+  color: #c4c4cc;
+}
+
+.main__start {
+  border: 4px solid #557a95;
+  background-color: #c4c4cc;
+}
+
+.main__box-input {
+  border: 4px solid #8cb6d4;
+}
+
+.main__box-btn {
+  border: 4px solid #557a95;
+  background-color: #c4c4cc;
+}
+
+#word {
+  background-color: #252527;
+  border: 4px solid #b1a296;
+  color: #c4c4cc;
+}
+
+.red {
+  color: rgb(252, 109, 109);
+}
+
+.green {
+  color: #c4c4cc;
+}
+
+#all-current-answers {
+  color: #557a95;
+}
+
+.main-learned__show {
+  border: 4px solid #557a95;
+  background-color: #c4c4cc;
+}
+
+.main-learned {
+  color: #c4c4cc;
+}
+
+.main-learned__list {
+  color: #c4c4cc;
+}
+
+#switchMode {
+  color: #020202;
+  border: 2px solid #557a95;
+  background-color: #c4c4cc;
+}
