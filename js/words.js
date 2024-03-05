@@ -11873,7 +11873,7 @@ let arr = [
     num: 849,
     memory: 0,
     word: {
-      name: "hardly",
+      name: "get out of",
       translate: [
         "избегать",
         "избавляться от",
