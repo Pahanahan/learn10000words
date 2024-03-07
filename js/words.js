@@ -12719,7 +12719,7 @@ let arr = [
     num: 913,
     memory: 0,
     word: {
-      name: "sharp",
+      name: "prepare",
       translate: ["подготавливать", "готовить"],
     },
   },
